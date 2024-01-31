@@ -1,0 +1,58 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    background: black;
+    font-family: 'Roboto';
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+h1{
+    color: red;
+}
+h2{
+    color: blue;
+}
+h3{
+    color: white;
+}
+pre {
+   color: white;
+}
+
+button{
+    background-color:bisque;
+}
+
+button:hover{
+    text-decoration: none;
+    background-color:aqua;
+}
+
+button:active{
+    text-decoration: none;
+    color:yellow;
+}
+
+.pagination{
+    text-align:center;
+}
+
+.pagination a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+.pagination a.active{
+    background-color: orange;
+    font-weight:bold;
+    border-radius: 10px;
+}
+
+.pagination a:hover:not(.active){
+    background-color: grey;
+    border-radius:10px;
+}
